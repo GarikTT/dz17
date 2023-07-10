@@ -138,3 +138,5 @@ script --timing=time_loading_lesson_one_log loading_lesson_one.log
 25. Перезагружаемся и проверяем на клиенте - dig @192.168.50.10 www.ddns.lab
 26  scriptreplay --timing=time_loading_task_two_log loading_task_two.log -d 20
 27. Все!
+28. Каталог otus-linux-adm непонятно загрузился или нет?!
+    В нем я не делал никаких изменений, открывается по ссылке https://github.com/mbfx/otus-linux-adm.git
