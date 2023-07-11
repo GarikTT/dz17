@@ -35,7 +35,7 @@ Vagrant.configure("2") do |config|
           sed -ie 's/:80/:4881/g' /etc/nginx/nginx.conf
           sed -i 's/listen       80;/listen       4881;/' /etc/nginx/nginx.conf
           #disable SELinux
-          #setenforce 0
+          #setenforce 0 // Если эту команду раскомментировать, то всё будет как у бабушки!!!
           #start nginx
           systemctl start nginx
           systemctl status nginx
