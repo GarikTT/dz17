@@ -74,7 +74,7 @@ script --timing=time_loading_lesson_one_log loading_lesson_one.log
 15. Переходим к упражнению - 
     cd otus-linux-adm/selinux_dns_problems
 16. vagrant up
-    "Здесь зрители аплодирут, аплодируют..." и вылетает VirtuslBox. Перезагружаемся.
+    "Здесь зрители аплодирут, аплодируют..." и вылетает VirtualBox. Перезагружаемся.
     vagrant status
     vagrant ssh client
 17. Сразу проверяем правила в настройках произвольных DNS серверов -
